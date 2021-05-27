@@ -1,6 +1,6 @@
-# Banker-s-Algorithm
+# Banker's Algorithm
 
-Deadlock을 회피하기 위한 방법
+### Deadlock을 회피하기 위한 방법
 
 Safe State를 유지할 수 있는 요구만 수락, Unsafe State는 Safe State가 될 때까지 거절
 
@@ -12,8 +12,11 @@ Unsafe State: 불안전상태
 - Unsafe여도 무조건 Deadlock이 발생하지는 않음
 
 Max: 프로세스 별 최대 자원의 요구
+
 Available: 사용 가능한 자원의 수
+
 Need: 프로세스 별 남아있는 자원의 수
+
 Allocation: 현재 프로세스 별 할당된 자원의 수
 
 
